@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+
+        }
+
+        header  {
+            background-color: rgb(180, 177, 177);
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+        header > h1{
+            background-color: white;
+           font-size: 40px;
+           text-align: center;
+           margin: 50px 30px;
+           box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);
+        }
+        nav {
+          background-color: rgb(124, 123, 123);
+          padding: 3px;
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);
+
+        }
+        nav > a {
+            
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        nav > 
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article  > aside {
+            background-color: rgb(141, 138, 138);
+            margin-right: 380px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        span {
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+                        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+            
+           
+        }
+
+        #noticias {
+            text-align: justify; 
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);           
+        }
+        span > a {
+            text-decoration: none;
+            color: black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recanto do Alecrim 1 News </h1>
+        <nav>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+       <a href="#">Link</a>     
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><span class="spn"><a href="#">Esportes</a> </span><span><a href="#">Política</a></span> <span><a href="#">Música</a></span> <span><a href="#">Tecnologia</a></span></p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis ad eveniet soluta eum incidunt suscipit optio, iusto quae tenetur reiciendis voluptatem alias, eius ducimus commodi corporis ut cumque omnis?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque incidunt at optio minus deserunt necessitatibus ratione soluta, maiores quo illo fuga labore consequuntur eaque accusamus ab ut ullam corrupti quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatibus repudiandae amet expedita, nobis animi, repellat consequatur fugit ad tempore reiciendis accusamus odit provident eveniet magnam molestiae ipsam minima porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur itaque quia laudantium officiis rerum ratione, ea enim. Magni nisi veritatis labore aperiam repellendus at? Labore ullam amet aut est voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex temporibus maiores odio eligendi reiciendis, voluptatibus ratione eos assumenda incidunt facere, corporis autem id delectus aut culpa aspernatur enim quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, alias quaerat. Labore perspiciatis amet aspernatur, voluptates nostrum consequuntur explicabo odio nobis! Sit recusandae debitis doloribus animi mollitia voluptas harum molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque incidunt at optio minus deserunt necessitatibus ratione soluta, maiores quo illo fuga labore consequuntur eaque accusamus ab ut ullam corrupti quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatibus repudiandae amet expedita, nobis animi, repellat consequatur fugit ad tempore reiciendis accusamus odit provident eveniet magnam molestiae ipsam minima porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur itaque quia laudantium officiis rerum ratione, ea enim. Magni nisi veritatis labore aperiam repellendus at? Labore ullam amet aut est voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex temporibus maiores odio eligendi reiciendis, voluptatibus ratione eos assumenda incidunt facere, corporis autem id delectus aut culpa aspernatur enim quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, alias quaerat. Labore perspiciatis amet aspernatur, voluptates nostrum consequuntur explicabo odio nobis! Sit recusandae debitis doloribus animi mollitia voluptas harum molestias.</p>
+                <aside>
+                    <p>Artigo escrito por Jóse da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemvideo</p>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            text-align: center;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(222, 224, 224);
+            color: black;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(200, 208, 209);
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(240, 228, 228);
+        }
+        .num {
+            text-align: right;
+        }
+        tbody {
+            color: white;
+        }
+
+        tbody > tr:nth-child(odd) { /* Efeito Zebrado
+                                        odd = impar
+                                        even = par*/
+            background-color: red;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <Caption>
+            População das Unidades Federativas 
+        </Caption>
+        <thead>
+            <tr>                
+                <th scope="col" >Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+                <th scope="col" style="width: 150px;">Sede do Governo</th>
+                <th scope="col" style="width: 50px;;">Abreviação</th>
+               
+            </tr>
+
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total </th>
+                <td>213.317.639</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+           
+            <tr>                
+                <td>São Paulo</td>
+                <td class="num">44.169.350</td>
+                <td>São Paulo</td>
+                <td>SP</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.497.395</td>
+                <td>Rio de Janeiro</td>
+                <td>RJ</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.777.672</td>
+                <td>Belo Horizonte</td>
+                <td>MG</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">3.894.899</td>
+                <td>Vitória</td>
+                <td>ES</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.150.143</td>
+                <td>Salvador</td>
+                <td>BA</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.228.091</td>
+                <td>Porto Alegre</td>
+                <td>RS</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.112.062</td>
+                <td>Curitiba</td>
+                <td>PR</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.297.861</td>
+                <td>Recife</td>
+                <td>PE</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">6.551.322</td>
+                <td>Goiânia</td>
+                <td>GO</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.867.448</td>
+                <td>Fortaleza</td>
+                <td>CE</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.101.180</td>
+                <td>Belém</td>
+                <td>PA</td>
+            </tr>
+
+            <tr>
+                <td>Maranhã</td>
+                <td class="num">6.861.924</td>
+                <td>São Luís</td>
+                <td>MA</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">6.734.568</td>
+                <td>Florianópolis</td>
+                <td>SC</td>
+            </tr>
+
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3.950.359</td>
+                <td>João Pessoa</td>
+                <td>PB</td>
+            </tr>
+
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3.893.763</td>
+                <td>Manaus</td>
+                <td>AM</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.419.550</td>
+                <td>Natal</td>
+                <td>RN</td>
+            </tr>
+
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.327.551</td>
+                <td>Maceió</td>
+                <td>AL</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3.236.578</td>
+                <td>Cuiabá</td>
+                <td>MT</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso sul</td>
+                <td class="num">2.963.098</td>
+                <td>Campo Grande</td> 
+                <td>MS</td> 
+            </tr>
+
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.198.185</td>
+                <td>Teresina</td>
+                <td>PI</td>
+            </tr>
+
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2.867.869</td>
+                <td>Brasília</td>
+                <td>DF</td>
+            </tr>
+
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.227.294</td>
+                <td>Aracaju</td>
+                <td>SE</td>
+            </tr>
+
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.755.015</td>
+                <td>Porto Velho</td>
+                <td>RO</td>
+            </tr>
+
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.502.759</td>
+                <td>Palmas</td>
+                <td>TO</td>
+            </tr>
+
+            <tr>
+                <td>Acre</td>
+                <td class="num">795.145</td>
+                <td>Rio Branco</td>
+                <td>AC</td>
+            </tr>
+
+            <tr>
+                <td>Amapá</td>
+                <td class="num">756.500</td>
+                <td>Macapá</td>
+                <td>AP</td>
+            </tr>
+
+            <tr>
+                <td>Roraima</td>
+                <td class="num">500.826</td>
+                <td>Boa Vista</td>
+                <td>RR</td>
+            </tr>
+        </tbody>       
+    </table>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quidem, omnis soluta voluptates illum nobis totam veritatis, sunt quibusdam rerum eaque iste ipsa inventore repudiandae mollitia voluptate necessitatibus modi aut.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur cupiditate a rem nostrum dolorem vel eligendi quaerat, incidunt veritatis eos, iste beatae ratione fugiat libero blanditiis esse perferendis quibusdam praesentium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam quas officiis natus blanditiis, doloribus ipsa? At, unde, minus dicta, autem consectetur quo accusantium quis deserunt illum voluptate nostrum ipsum.
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quidem, omnis soluta voluptates illum nobis totam veritatis, sunt quibusdam rerum eaque iste ipsa inventore repudiandae mollitia voluptate necessitatibus modi aut.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur cupiditate a rem nostrum dolorem vel eligendi quaerat, incidunt veritatis eos, iste beatae ratione fugiat libero blanditiis esse perferendis quibusdam praesentium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam quas officiis natus blanditiis, doloribus ipsa? At, unde, minus dicta, autem consectetur quo accusantium quis deserunt illum voluptate nostrum ipsum.
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quidem, omnis soluta voluptates illum nobis totam veritatis, sunt quibusdam rerum eaque iste ipsa inventore repudiandae mollitia voluptate necessitatibus modi aut.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur cupiditate a rem nostrum dolorem vel eligendi quaerat, incidunt veritatis eos, iste beatae ratione fugiat libero blanditiis esse perferendis quibusdam praesentium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam quas officiis natus blanditiis, doloribus ipsa? At, unde, minus dicta, autem consectetur quo accusantium quis deserunt illum voluptate nostrum ipsum.
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quidem, omnis soluta voluptates illum nobis totam veritatis, sunt quibusdam rerum eaque iste ipsa inventore repudiandae mollitia voluptate necessitatibus modi aut.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur cupiditate a rem nostrum dolorem vel eligendi quaerat, incidunt veritatis eos, iste beatae ratione fugiat libero blanditiis esse perferendis quibusdam praesentium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam quas officiis natus blanditiis, doloribus ipsa? At, unde, minus dicta, autem consectetur quo accusantium quis deserunt illum voluptate nostrum ipsum.
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quidem, omnis soluta voluptates illum nobis totam veritatis, sunt quibusdam rerum eaque iste ipsa inventore repudiandae mollitia voluptate necessitatibus modi aut.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur cupiditate a rem nostrum dolorem vel eligendi quaerat, incidunt veritatis eos, iste beatae ratione fugiat libero blanditiis esse perferendis quibusdam praesentium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam quas officiis natus blanditiis, doloribus ipsa? At, unde, minus dicta, autem consectetur quo accusantium quis deserunt illum voluptate nostrum ipsum.
+    </p>
+    
+</body>
+</html>

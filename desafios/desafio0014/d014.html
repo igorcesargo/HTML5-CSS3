@@ -8,15 +8,12 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            color: white;
         }
         table {
             width: 400px;
             border-collapse: collapse;            
-        }
-
-        tbody {
-
-        }
+        }    
 
         tbody > tr:nth-child(odd) {
             background-color: red;
@@ -27,8 +24,7 @@
             background-color: black;
         }
 
-        thead > tr > th, .media {
-            border: 1px solid black;
+        thead > tr > th, .media {            
             background-color: rgb(117, 116, 116);
             color: white;
             padding: 10px;
@@ -37,9 +33,15 @@
             border: 1px solid black;
             padding: 10px;
         }
+        .materias {
+            color: black;
+            background-color: white;
+        }
 
-        .media, td {
+        .media {
+            background-color: rgb(117, 116, 116);
             text-align: left;
+           
         }
 
 
@@ -66,59 +68,59 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="5" scope="rowgroup" style="background-color: white;" color="black">Exatas</th>
+                <th rowspan="5" scope="rowgroup" class="materias" >Exatas</th>
             </tr>
             <tr>
                 
                 <td>Matemática</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>7,5</td>
+                <td>8.5</td>
+                <td>8.0</td>
             </tr>
             <tr>
                 <td>Física</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>7.0</td>
+                <td>8.0</td>
+                <td>7.5</td>
             </tr>
 
             <tr> 
                 <td>Química</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>6.0</td>
+                <td>6.0</td>
+                <td>6.0</td>
             </tr>
             <tr>
                 <td>Biologia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr class="media" style="background-color: rgb(117, 116, 116);">
-                <th colspan="4" scope="row"  >Média Exatas</th>
-                <td>0.0</td>
+                <td>5.0</td>
+                <td>7.0</td>
+                <td>6.0</td>
             </tr>
             <tr>
-                <th rowspan="3" scope="rowgroup" style="background-color: white;" >Humanas</th>
+                <th colspan="4" scope="row" class="media" >Média Exatas</th>
+                <td class="media">7.0</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup" class="materias" >Humanas</th>
             </tr>
 
             <tr>
                 
                 <td>História</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>10.0</td>
+                <td>8.5</td>
+                <td>9.5</td>
             </tr>
             
             <tr>
                 <td>Geografia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>8.0</td>
+                <td>9.0</td>
+                <td>8.5</td>
             </tr>
-            <tr class="media" style="background-color: rgb(117, 116, 116);">
-                <th colspan="4" scope="row"   >Média de Humanas</th>
-                <td>0.0</td>
+            <tr >
+                <th colspan="4" scope="row" class="media">Média de Humanas</th>
+                <td class="media">9.0</td>
             </tr>
         </tbody>
     </table>

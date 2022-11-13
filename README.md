@@ -3,8 +3,6 @@
 
 Venha acompanha meu aprendizado.
 
-<a href="https://igorcesargo.github.io/html-css/exercicios/ex002/index.html">Executar exercicio 1</a>
-
 
 * [Acesse aqui meus exercícios](https://igorcesargo.github.io/html-css/exercicios/)
 * [Meus desafio estão aqui](https://igorcesargo.github.io/html-css/desafios/)

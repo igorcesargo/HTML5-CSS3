@@ -3,5 +3,5 @@
 
 Venha acompanha meu aprendizado.
 
-* [Acesse aqui meus exercícios](https://igorcesargo.github.io/hmtl-css/exercicios/)
+* [Acesse aqui meus exercícios](https://igorcesargo.github.io/html-css/exercicios/)
 * [Meus desafio estão aqui](https://igorcesargo.github.io/html-css/desafios/)

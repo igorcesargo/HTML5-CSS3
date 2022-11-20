@@ -5,3 +5,4 @@ Venha acompanha meu aprendizado.
 
 * [Acesse aqui meus exercícios](https://igorcesargo.github.io/html-css/exercicios/)
 * [Meus desafio estão aqui](https://igorcesargo.github.io/html-css/desafios/)
+* [Hobbies](https://igorcesargo.github.io/html-css/praticando/)

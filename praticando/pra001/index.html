@@ -14,80 +14,153 @@
             padding: 0;
             
         }
+        body {
+            background-color: #0f0707;
+            width: 100vh;                    
+        }  
+        main {
+            min-width: 100px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: rgba(247, 242, 242, 0.733);
+        }
+
+       
+        #tudo {
+            display: flex;
+            align-items: stretch;
+           
+        }
+        #fotoperfil {
+            border: 2px solid rgb(248, 2, 2);
+            border-radius: 50%;
+        }
+
+        #redes {
+            background-color: rgba(0, 0, 0, 0.829);
+          padding-right: 10px;           
+        }
+
+        #conteudo {
+            padding: 50px 0px 0px  50px ;
+        }
+
+        h1, p {
+            text-align: center;            
+        }
+
+        h1 {            
+            padding: 10px  10px  0px 10px;           
+        }
+        h2 {
+            background-color: rgb(197, 19, 19);
+            color: rgba(255, 255, 255, 0.904);
+            width: 300px;
+            height: 30px;
+            border-radius: 0px 10px;
+            padding: 0px 0px 0px 5px;
+        }
+
+        p {
+            padding-bottom: 50px;
+                       
+        }
+        #contato {
+            color: white;
+            
+        }
+    
+        #contato > img {
+            padding-left: 100px;
+           
+            
+        }
+
+        a {
+            display: flex;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+      
+        .img-redes {
+           padding-right: 8px;
+
+        }
+
+        #habilidades {
+            padding-left: 12px;
+        }
         
-        header{
-            background-color: aqua;
-            height: 60px;
-            text-align: center;
-        }
-        nav{
-            background-color: lightgray;
-            width: 400px;
-            height: 800px;
-        }
-             
-             
+        
     </style>
 </head>
 <body>
-       
-       <header>                      
-        <h1>Igor César Galdino Motta de Oliveira</h1>
-                      
-       </header>
-       <nav>
-        <a href="https://www.linkedin.com/in/igorcesardeoliveira/" target="_blank"><img src="imagens/10eyu.png"   alt="foto de perfil">  </a> 
-
-        <p class="tel">
-            <a href="https://wa.me/5521968650940" target="_blank"><img src="imagens/Logo WhatsApp.png" alt="logo WhatsApp">(21) 96865-0940</a> 
-        </p>
-        <p class="tel">
-            <a href="mailto:igorcesar.g.o@gmail.com" target="_blank"><img src="imagens/email0.png" alt="">igorcesar.g.o@gmail.com</a>     
-            <a href="https://github.com/igorcesargo" target="_blank"><img src="imagens/github.png" alt="Logo Github">github.com/igorcesargo</a></p>
-         <p> 
-            <a href="https://www.instagram.com/igorcesaroliver/" target="_blank"><img src="imagens/insta1.png" alt="Foto instagram">igorcesaroliver</a>&nbsp; &nbsp; &nbsp; &nbsp;
-            <a href="https://www.linkedin.com/in/igorcesardeoliveira/" target="_blank" rel="external"><img src="imagens/link1.png" alt="Foto logo Linkedin">igorcesardeoliveira</a></p>
-                  
-      
-
-       </nav>
-    <main>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt temporibus magni repudiandae laboriosam aliquid provident id, architecto facere atque, blanditiis rem qui aspernatur. Aliquam eligendi nihil dolor recusandae unde totam!</p>
-       <h2>Experiencia Proficional</h2>
-       <h3>Programador em JavaScript</h3>
-       <ul>
-           <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae perferendis eveniet.</li>
-           <li>quis in sequi, esse quibusdam deleniti commodi placeat quos sunt, accusamus voluptatem!</li>
-           <li> Quia accusamus pariatur sint est quas.</li>
-       </ul>
-       <h2>Educação</h2>
-       <h3>Front-end</h3>
-       <p>Curso em video</p>
-       <ul>
-           <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
-           <li>Debitis, cumque repudiandae dolore sapiente consequuntur quo aut vero ea autem expedita fuga minus quia et eaque ipsum ratione rerum optio exercitationem.</li>
-              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </li>
-              <li>Deserunt quas deleniti doloremque aliquid repellat corrupti suscipit corporis vero molestias sapiente in repudiandae debitis maxime dolore, recusandae laboriosam eius numquam obcaecati!</li>
-       </ul>
-        <h3>Ensino Medio</h3>
-        <p>C.E.João Santos Souto</p>
-        <ul>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li>Perferendis laborum impedit similique sapiente autem quidem beatae ab obcaecati suscipit.</li>
-                    <li>laudantium distinctio ipsa mollitia odit. Earum dignissimos sunt necessitatibus soluta velit?</li>
-                    </ul>
-                    <h2>Competêcias e Habilidades</h2>
+      <main>
+         <div id="tudo">
+             <section id="redes">
+             
+             
+                     <a href="https://www.linkedin.com/in/igorcesardeoliveira/" target="_blank"><img src="imagens/10eyu.png"   alt="foto de perfil" id="fotoperfil">  </a>
+             
+                     <h1 style="color: rgb(255, 255, 255); font-weight: bolder;">
+                        IGOR CÉSAR
+                     </h1>
+                     <h1 style="color: rgb(255, 8, 8); font-weight: 100; ">GALDINO MOTTA DE OLIVEIRA</h1>
+                     <p style="color: white;">
+                        Desenvolvedor Web
+                     </p>
+                <div id="contato">
+                        <a href="https://wa.me/5521968650940" target="_blank"><img src="imagens/Logo WhatsApp.png" alt="logo WhatsApp" class="img-redes">(21) 96865-0940</a>
+                        <a href="mailto:igorcesar.g.o@gmail.com" target="_blank"><img src="imagens/mail-1.png" alt="" class="img-redes"> igorcesar.g.o@gmail.com</a>
+                        <a href="https://github.com/igorcesargo" target="_blank"><img src="imagens/github.png" alt="Logo Github" class="img-redes">github.com/igorcesargo</a>
+                        <a href="https://www.instagram.com/igorcesaroliver/" target="_blank"><img src="imagens/insta1.png" alt="Foto instagram" class="img-redes">igorcesaroliver</a>
+                        <a href="https://www.linkedin.com/in/igorcesardeoliveira/" target="_blank" rel="external"><img src="imagens/link1.png" alt="Foto logo Linkedin" class="img-redes">igorcesardeoliveira</a>
+                        <section id="habilidades">
+                            <h2>Competêcias e Habilidades</h2>
+                            <ul>
+                                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </li>
+                                 <li>Modi totam maxime enim, minus officia rerum nemo vel mollitia nihil qui tempore ea, ducimus saepe, sit a aspernatur aliquid explicabo culpa?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                                <li>Obcaecati accusamus ullam, rerum quaerat fugiat possimus ad dolores facere quidem laborum beatae! Eum facere exercitationem incidunt modi, debitis recusandae pariatur ex.</li>
+                            </ul>
+                        </section>
+                </div>
+             </section>
+               <section id="conteudo">
+                <h2>Descrição</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt temporibus magni repudiandae laboriosam aliquid provident id, architecto facere atque, blanditiis rem qui aspernatur. Aliquam eligendi nihil dolor recusandae unde totam!</p>
+                   <h2>Experiencia Proficional</h2>
+                   <h3>Programador em JavaScript</h3>
+                   <ul>
+                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae perferendis eveniet.</li>
+                       <li>quis in sequi, esse quibusdam deleniti commodi placeat quos sunt, accusamus voluptatem!</li>
+                       <li> Quia accusamus pariatur sint est quas.</li>
+                   </ul>
+                   <h2>Educação</h2>
+                   <h3>Front-end</h3>
+                   <p>Curso em video</p>
+                   <ul>
+                       <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                       <li>Debitis, cumque repudiandae dolore sapiente consequuntur quo aut vero ea autem expedita fuga minus quia et eaque ipsum ratione rerum optio exercitationem.</li>
+                       <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </li>
+                       <li>Deserunt quas deleniti doloremque aliquid repellat corrupti suscipit corporis vero molestias sapiente in repudiandae debitis maxime dolore, recusandae laboriosam eius numquam obcaecati!</li>
+                   </ul>
+                    <h3>Ensino Medio</h3>
+                    <p>C.E.João Santos Souto</p>
                     <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </li>
-                        <li>Modi totam maxime enim, minus officia rerum nemo vel mollitia nihil qui tempore ea, ducimus saepe, sit a aspernatur aliquid explicabo culpa?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
-                   <li>Obcaecati accusamus ullam, rerum quaerat fugiat possimus ad dolores facere quidem laborum beatae! Eum facere exercitationem incidunt modi, debitis recusandae pariatur ex.</li>
-               </ul>
-               <h2>Informações adicionais</h2>
-               <ul>
-                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, corporis nostrum.</li>
-                   <li>In unde nihil aliquid vero consequatur beatae. Maxime accusantium alias, voluptas aperiam expedita quae repellendus nam saepe inventore rerum.</li>
-               </ul>    
+                       <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                       <li>Perferendis laborum impedit similique sapiente autem quidem beatae ab obcaecati suscipit.</li>
+                       <li>laudantium distinctio ipsa mollitia odit. Earum dignissimos sunt necessitatibus soluta velit?</li>
+                    </ul>
+             
+                     <h2>Informações adicionais</h2>
+                     <ul>
+                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, corporis nostrum.</li>
+                         <li>In unde nihil aliquid vero consequatur beatae. Maxime accusantium alias, voluptas aperiam expedita quae repellendus nam saepe inventore rerum.</li>
+                     </ul>
+               </section>
+         </div>
     </main>
 </body>
 </html>

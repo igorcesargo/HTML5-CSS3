@@ -3,16 +3,15 @@
     padding: 0;    
 }
 body {
-    background-color: #f3eded;
-    background-image: url(imagens/notebook-2637757_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;                        
+    background-color: #ada9a9;
+    
+    padding-top: 10px;                      
 }  
 
 main {
-    min-width: 280px;
-    max-width: 1000px;           
-    margin: auto;
+    min-width: 700px;
+    max-width: 1000px;             
+    margin: auto;    
     background-color: rgb(206, 197, 197);
     border-radius: 0px 50px 0px 50px;
     margin-bottom:10px ;
@@ -27,7 +26,7 @@ main {
     border: 3px solid rgb(248, 2, 2);
     border-radius: 50%;
     margin: auto;
-    padding: px;
+    
 }
 
 #redes {
@@ -43,7 +42,7 @@ main {
 }
 
 #conteudo {
-    padding: 50px 0px 0px  50px ;
+    padding: 50px 10px 0px  20px ;
 }
 
 h1 {            

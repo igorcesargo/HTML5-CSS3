@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #f3eded;
+    background-image: url(imagens/notebook-2637757_960_720.jpg);
+     background-repeat: no-repeat;
+    background-size: contain;
+                        
+}  
+
+main {
+    min-width: 100px;
+    max-width: 1000px;           
+    margin: auto;
+    background-color: rgb(206, 197, 197);
+    border-radius: 0px 50px 0px 50px;
+    margin-bottom:10px ;
+    box-shadow: 0px 0px 10px  black;
+}
+
+#tudo {
+    display: flex;
+    align-items: stretch;           
+}
+#fotoperfil {
+    border: 3px solid rgb(248, 2, 2);
+    border-radius: 50%;
+    margin: auto;
+    padding: px;
+}
+
+#redes {
+    background-color: rgb(29, 28, 28);
+    padding-right: 10px; 
+    padding-bottom: 30px;  
+    border-radius: 0px 0px 0px 50px;        
+}
+
+#redes > p, h1 {
+    text-align: center;  
+
+}
+
+#conteudo {
+    padding: 50px 0px 0px  50px ;
+}
+
+h1 {            
+    padding: 0px  0px  0px 0px;           
+}
+h2 {
+    background-color: rgb(197, 19, 19);
+    color: rgba(255, 255, 255, 0.904);
+    width: 300px;
+    height: 30px;
+    border-radius: 0px 10px;
+    padding: 0px 0px 0px 5px;
+}
+
+p {
+    padding-bottom: 50px;
+               
+}
+#contato {
+    color: white;
+    
+}
+
+#contato > img {
+    padding-left: 100px;
+   
+    
+}
+
+a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.img-redes {
+   padding-right: 8px;
+
+}
+
+#habilidades {
+    padding-left: 12px;
+}
+li {
+    list-style: none;
+}

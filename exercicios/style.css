@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: rgb(69, 69, 69);
     font: 16pt arial;
@@ -48,3 +52,23 @@ a:hover {
     color: darkgoldenrod;
     text-decoration: none;
 }
+
+.titulo {
+    font-weight: 600;
+    
+    
+}
+
+.esconder {
+    display: none;
+}
+
+div:hover > .esconder {
+    display: block;
+    color: white;
+ 
+    width: 250px;
+    transition-duration: 3s;
+
+}
+

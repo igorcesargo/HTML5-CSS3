@@ -61,14 +61,15 @@ a:hover {
 
 .esconder {
     display: none;
+    transition-duration: 5s;
 }
 
 div:hover > .esconder {
     display: block;
-    color: white;
+   
  
     width: 250px;
-    transition-duration: 3s;
+   transition: 5s;
 
 }
 

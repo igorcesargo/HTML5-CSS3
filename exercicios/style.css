@@ -48,28 +48,23 @@ a, a:visited {
     font-weight: bolder;
 }
 
-a:hover {
-    color: darkgoldenrod;
-    text-decoration: none;
-}
-
 .titulo {
+    
     font-weight: 600;
-    
-    
-}
-
-.esconder {
-    display: none;
-    transition-duration: 5s;
-}
-
-div:hover > .esconder {
-    display: block;
    
- 
-    width: 250px;
-   transition: 5s;
 
+    
+    
 }
 
+.mostrar{
+    display: none;
+   
+}
+
+
+button {
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+}

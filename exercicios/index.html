@@ -30,64 +30,58 @@
         <li><a href="modulo-01/ex010/index.html" target="_blank">Links internos, externos e de downloads</a></li>
         <li><a href="modulo-01/ex011/index.html" target="_blank">Imagens dinâmicas e áudio</a></li>
         <li><a href="modulo-01/ex012/index.html" target="_blank">Vídeos em HTML5</a></li>
-
-        <div>
-            <li class="titulo"><ins>CSS</ins> ▾</li>
-            <ul class="esconder">
+        
+        <li><button type="button " onclick="Mudarestado('esconderCss')"><ins>CSS </ins>▾</button> </li>        
+            <ul  id="esconderCss" class="mostrar">
                 <li><a href="modulo-01/ex013/index.html" target="_blank">Usando estilos in-line</a></li>
                 <li><a href="modulo-01/ex014/index.html" target="_blank">Usando estilos internos</a></li>
                 <li><a href="modulo-01/ex015/index.html" target="_blank">Usando estilos externos</a></li>
             </ul>
-        </div>
-        </ul>
+        
+    </ul>
 
     <h2>&#x1F4C1; Módulo 02</h2>
     <ul>
         <div>
             
-                <li class="titulo"><ins>Cores</ins> ▾</li>
+                <li><button type="button " onclick="Mudarestado('esconderCores')"><ins>Cores</ins> ▾</button></li>
             
-            <ul class="esconder">
+            <ul id="esconderCores" class="mostrar">
                 <li><a href="modulo-02/ex016-cores/cor01.html" target="_blank">Cores em CSS</a></li>
                 <li><a href="modulo-02/ex016-cores/cor02.html" target="_blank">Gradiente </a></li>
                 <li><a href="modulo-02/ex016-cores/cor03.html" target="_blank">Site de exemplo</a></li>
             </ul>
-        </div>
-        <div>
-            <li class="titulo"><ins>Fontes</ins> ▾</li>
-            <ul class="esconder">
+        
+            <li><button type="button " onclick="Mudarestado('esconderFontes')"><ins>Fontes</ins> ▾</button></li>
+            <ul id="esconderFontes" class="mostrar">
                 <li><a href="modulo-02/ex017-fontes/fonte01.html" target="_blank">Fontes em CSS</a></li>
                 <li><a href="modulo-02/ex017-fontes/fonte02.html" target="_blank">Alinhamento</a></li>
                 <li><a href="modulo-02/ex018-googel-fonts/fonte01.html" target="_blank">Fontes com Google Fontes</a></li>
                 <li><a href="modulo-02/ex018-googel-fonts/fonte02.html" target="_blank">Fontes Externas</a></li>
             </ul>
             
-        </div>
-        <div>
-            <li class="titulo"><ins>Seletores</ins> ▾</li>
-            <ul class="esconder">
+            <li><button type="button " onclick="Mudarestado('esconderSeletores')"><ins>Seletores</ins> ▾</button></li>
+            <ul id="esconderSeletores" class="mostrar">
                 <li><a href="modulo-02/ex019-id-class/seletor.html" target="_blank">Seletores</a></li>
                 <li><a href="modulo-02/ex020-pseudo-class/hover.html" target="_blank">Houver</a></li>
                 <li><a href="modulo-02/ex020-pseudo-class/links.html" target="_blank">links</a></li>
                 <li><a href="modulo-02/ex020-pseudo-class/pseudo.html" target="_blank">Pseudo classe</a></li>
             </ul>
-        </div>
     </ul>
     
 
     <h2>&#x1F4C1; Módulo 03</h2>
-    <ul>
-        <div>
-            <li class="titulo"><ins>Caixas</ins>  ▾</li>
-            <ul class="esconder">
+    <ul>        
+            <li><button type="button " onclick="Mudarestado('esconderCaixas')"><ins>Caixas</ins>  ▾</button></li>
+            <ul id="esconderCaixas" class="mostrar">
                 <li><a href="modulo-03/ex021-caixas/caixa02.html" target="_blank">Grouping Tags</a></li>
                 <li><a href="modulo-03/ex021-caixas/caixas01.html" target="_blank">Modelo de Caixas</a></li>
-            </ul>
-        </div>
+            </ul>        
         <li><a href="modulo-03/ex022/index.html" target="_blank">Imagens de fundo</a></li>
-        <div>
-            <li class="titulo"><ins>Tabelas</ins> ▾</li>
-            <ul class="esconder">
+        
+            <li><button type="button " onclick="Mudarestado('esconderTabelas')"><ins>Tabelas</ins> ▾</button></li>
+            
+            <ul id="esconderTabelas" class="mostrar">
                 <li><a href="modulo-03/ex023/tabela001.html" target="_blank">Minha primeira tabela</a></li>
                 <li><a href="modulo-03/ex023/tabela001.2.html" target="_blank">Tabela 2</a></li>
                 <li><a href="modulo-03/ex023/tabela002.html" target="_blank">Uso de tabelas grandes</a></li>
@@ -95,9 +89,19 @@
                 <li><a href="modulo-03/ex023/tabela004.html" target="_blank">Filmes Favoritos</a></li>
                 <li><a href="modulo-03/ex023/tabela005.html" target="_blank">Cadastro</a></li>
                 <li><a href="modulo-03/ex023/tabela006.html" target="_blank">Tabelas em telas pequenas</a></li>
-            </ul>
-        </div>
+            </ul>    
     </ul> 
+
+    <script>
+        function Mudarestado(el) {
+            var display = document.getElementById(el).style.display;
+            if(display == "none")
+                document.getElementById(el).style.display = 'block';
+            else
+                document.getElementById(el).style.display = 'none';
+        }
+    </script>
+
 </main>
     
 </body>

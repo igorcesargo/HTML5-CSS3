@@ -14,10 +14,26 @@
 <body>
     <main>
         <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, ipsam harum. Omnis quaerat in quam facere magni eos, exercitationem et dolorem incidunt ipsum! Quis iusto esse natus. Necessitatibus, at soluta.</h1>
-        <section>
-            <button></button>
+        <div id="nac">
+
+        </div> <br>
+        <section>                   
+            <button id="chave" onclick="chave()">Chave</button>
         </section>
     </main>
     
+    <script>
+        function chave() {
+            var caixa = prompt('Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três?')
+            var nacao = document.querySelector('div#nac')
+            if (caixa || 'homem, Homem, HOMEM, HUMANO, Humano, humano') {
+            nacao.innerHTML = `Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, ipsam harum. Omnis quaerat in quam facere magni eos, exercitationem et dolorem incidunt ipsum! Quis iusto esse natus. Necessitatibus, at soluta` }
+
+
+
+        }
+
+        
+    </script>
 </body>
 </html>

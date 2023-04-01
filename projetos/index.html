@@ -4,12 +4,8 @@
     <meta charset="UTF-8">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Código</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: dimgray;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos/style.css">
+    
 </head>
 <body>
     <main>
@@ -26,11 +22,10 @@
         function chave() {
             var caixa = prompt('Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três?')
             var nacao = document.querySelector('div#nac')
-            if (caixa || 'homem, Homem, HOMEM, HUMANO, Humano, humano') {
-            nacao.innerHTML = `Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, ipsam harum. Omnis quaerat in quam facere magni eos, exercitationem et dolorem incidunt ipsum! Quis iusto esse natus. Necessitatibus, at soluta` }
-
-
-
+            if (caixa || 'homem Homem HOMEM HUMANO Humano humano') {
+            nacao.innerHTML = `Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, ipsam harum. Omnis quaerat in quam facere magni eos, exercitationem et dolorem incidunt ipsum! Quis iusto esse natus. Necessitatibus, at soluta` } else {
+                
+            }
         }
 
         

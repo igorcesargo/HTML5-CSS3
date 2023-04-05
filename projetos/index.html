@@ -24,7 +24,9 @@
             var caixa = prompt('Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três?')
             var nacao = document.querySelector('div#nac')
             if (caixa == 'homem' || caixa == 'Homem' || caixa == 'homem ' || caixa == 'Homem ') {
-            nacao.innerHTML = `Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, ipsam harum. Omnis quaerat in quam facere magni eos, exercitationem et dolorem incidunt ipsum! Quis iusto esse natus. Necessitatibus, at soluta` } else {
+            nacao.innerHTML = `Resolva o enigma: Pela manha, anda de quatro patas, a tarde de duas e a noite de três? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, ipsam harum. Omnis quaerat in quam facere magni eos, exercitationem et dolorem incidunt ipsum! Quis iusto esse natus. Necessitatibus, at soluta` 
+            document.getElementById('chave').style.display = 'none';
+        } else {
                 nacao.innerHTML = 'Não foi dessa vez, tente novamente na proxima' 
             }
         }

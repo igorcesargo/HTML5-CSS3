@@ -33,6 +33,10 @@ main {
   
 }
 
+main > button {
+    display: flex;
+}
+
 h1 {
     margin: center;
 }
@@ -45,20 +49,35 @@ input#texto{
 
 div#nac {
     background-color: #e8dfee;
-    margin: 10px;
+    margin: 15px;
+    
 }
 
-button {
-    margin: bottom;
+button {   
     width: 110px;
     height: 60px;
-    margin-bottom: 100px;
+    margin-top: 80px;
     
-    position: fixed;
-    left: 8%;
-    bottom: -5%;
+    
+    
 }
 
 button#chave {
     display: block;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 800px;
+    }
+    input#texto {
+        width: 700px;
+    }
+    main > button {
+        display: flex;
+    }
+
+    button {
+        margin-top: 250px;
+    }
 }
